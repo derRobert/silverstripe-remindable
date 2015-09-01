@@ -20,7 +20,7 @@ class RemindableReport extends SS_Report {
             ),
             'DueDate' => array(
                 'title' => 'Fälligkeit',
-                'casting' => 'SS_DateTime->DE_Time'
+                'casting' => 'SS_DateTime'
             ),
             'Comment.Summary' => array(
                 'title' => 'Auszug'
